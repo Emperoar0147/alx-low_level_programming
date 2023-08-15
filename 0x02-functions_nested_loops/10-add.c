@@ -1,5 +1,3 @@
-Task 10
-
 #include "main.h"
 /**
  * add - adds two integers and returnsthe result
