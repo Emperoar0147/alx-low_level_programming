@@ -114,7 +114,6 @@ void print_data(unsigned char *e_ident)
 /**
  *  * print_version - it Prints the version of an ELF header.
  *   * @e_ident: pointer to an array containing the ELF version.
- * 
  */
 void print_version(unsigned char *e_ident)
 {
@@ -179,7 +178,8 @@ void print_osabi(unsigned char *e_ident)
 
 /**
  * print_abi - it Prints the ABI version of an ELF header.
- * @e_ident: pointer to an array containing the ELF ABI version.
+ * @e_ident: pointer to an array containing
+ * the ELF ABI version.
  */
 void print_abi(unsigned char *e_ident)
 {
